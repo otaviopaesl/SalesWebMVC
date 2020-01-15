@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <Folder Include="Models\ViewModels\" />
-    <Folder Include="Views\Departments\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Controllers\DepartmentsController.cs" />
   </ItemGroup>
 </Project>
