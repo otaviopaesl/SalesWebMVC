@@ -20,7 +20,7 @@ namespace SalesWebMVC.Controllers
         {
             _context = context;
         }
-
+        
         // GET: Departments
         public async Task<IActionResult> Index()
         {
