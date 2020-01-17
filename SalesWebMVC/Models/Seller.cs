@@ -13,7 +13,7 @@ namespace SalesWebMVC.Models
 
         [Required]
         [DataType(DataType.Date, ErrorMessage = "Date is out of Range")]
-        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy}")]
+        [DisplayFormat(ApplyFormatInEditMode = false, DataFormatString = "{0:dd/MM/yyyy}")]
         public DateTime BirthDate { get; set; }
 
         public double BaseSalary { get; set; }
